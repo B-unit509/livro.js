@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calcule o valor de um jantar</title>
+</head>
+<body>
+    <script>
+        //Lê o valor da jantar
+        var jantar = Number (prompt("digite o valor da jantar"))
+
+        var garçom = jantar*0.10 // calucle 10% do garçom
+        var total = jantar+ garçom // calucle o valor total
+        alert(" Taxa Garçom R$ "+ garçom.toFixed(2) + "\nTotal R$: " + total.toFixed(2) )
+        //toFixed(2) para indicar que o valor conter 2 casas decimais. 
+        // \n  a quebra de linha
+    </script>
+    
+</body>
+</html>
